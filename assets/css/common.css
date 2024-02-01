@@ -1,0 +1,148 @@
+
+.sc-bannerswiper .navigation .next,
+.sc-bannerswiper .navigation .autoplay,
+.sc-bannerswiper .navigation .prev,
+.main-swiper .navigation .next,
+.main-swiper .navigation .autoplay,
+.main-swiper .navigation .prev,
+.main-swiper .navigation .autoplay.stop,
+.sc-new .link-all::after,
+.plus-box,
+.customer-img,
+.search-area .btn-search,
+.header .logo-area a{
+  background-image: url(../img/icon-set.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 300px;
+}
+
+.news .ico,
+.citizen .ico{
+  background-image: url(../img/icon-main.png);
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 300px;
+}
+
+.link-fastival,
+.link-stroy{
+  background-image: url(../img/ico-service.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 160px 60px;
+}
+
+.major-service-item .public,
+.major-service-item .answer,
+.major-service-item .job,
+.major-service-item .realestate,
+.major-service-item .study,
+.major-service-item .welfare,
+.major-service-item .living,
+.major-service-item .information,
+.major-service-item .in-myhand,
+.major-service-item .imagination,
+.major-service-item .book,
+.major-service-item .cityhall{
+  background-image: url(../img/icon-set-service.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 1200px 60px;
+}
+
+.confirmed .date::after{
+  background-image: url(../img/ico-triangle.png);
+  background-repeat: no-repeat;
+  background-size: 8px 11px;
+}
+
+.sc-sns .headline::after{
+  background-image: url(../img/icon-sns.png);
+  background-repeat: no-repeat;
+  background-size: 280px 40px;
+}
+
+.sns-area .ico-blog,
+.sns-area .ico-youtube,
+.sns-area .ico-kakao,
+.sns-area .ico-instar,
+.sns-area .ico-twiter,
+.sns-area .ico-face{
+  background-image: url(../img/icon-set-footer-sns.png);
+  background-repeat: no-repeat;
+  background-size: 175px 50px;
+  height: 24px;
+  width: 24px;
+}
+
+.sns-img .ico-blog,
+.sns-img .ico-youtube,
+.sns-img .ico-kakao,
+.sns-img .ico-instar,
+.sns-img .ico-twiter,
+.sns-img .ico-face{
+  background-image: url(../img/icon-sns.png);
+  background-repeat: no-repeat;
+  background-size: 280px 40px;
+  height: 40px;
+  width: 40px;
+}
+
+/* 전체 넓이 값 */
+.common-inner{
+  margin: 0 auto;
+  width: 1152px;
+}
+
+
+/* skip nav */
+.skip-nav{
+  position: relative;
+    z-index: 3000;
+}
+.skip-nav a{
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 138px;
+  border: 1px solid #4ec53d;
+  background: #333;
+  text-align: center;
+}
+
+.skip-nav a:active,
+.skip-nav a:focus{
+  text-outline: 0;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+
+
+/* blind */
+.blind{
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+
+
+/* plus box */
+.plus-box{
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 6px;
+  width: 22px;
+  height: 20px;
+  border: 1px solid #ddd;
+  background-position: -1px -1px;
+}
+.plus-box a{
+  display: block;
+    width: 100%;
+    height: 100%;
+}
