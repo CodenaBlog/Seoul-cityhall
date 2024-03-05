@@ -1,20 +1,3 @@
-  /**'
-   * @append - 뒤에 추가
-   * @click - 클릭 이벤트
-   * @focus - 집증
-   * @document - 문서(처음부터 읽을때)
-   * @val - value 값
-   * @text - 텍스트
-   * @siblings - 형제선택
-   * @parent - 부모선택
-   * @children - 자식선책
-   * @보간 - 백틱  나인해
-   * @동적이벤트생성에이벤트주기
-   * @동적테그 - 마크업에 테그가 없었던게 스크립트로 추가된거
-   * @remove - 삭제(테그 전체가 삭제)
-   * @this - 이거(이벤트 주최자 중 내가 선택한 그거)
-   */
-  
 $(function(){
 
 
@@ -27,26 +10,6 @@ $('#lengInput').click(function(){ // go를 클릭했을때
   url = $('#lengList').val(); // lengList의 값을 불러온다. = html의 value
   window.open(url);  // 윈도우 창에 그 값을 오픈한다.
 }); 
-
-// $('#lengInput').click(function(){
-
-//   if ($(this).find('.en')) {
-//     $(location).attr("href", "http://english.seoul.go.kr/?SSid=101-01")
-//   } 
-//   if ($(this).find('.ja')) {
-//     $(location).attr("href", "http://japanese.seoul.go.kr/?SSid=101-02")
-//   } 
-//   if ($(this).find('.ch1')) {
-//     $(location).attr("href", "http://chinese.seoul.go.kr/?SSid=101-04")
-//   } 
-//   if ($(this).find('.ch2')) {
-//     $(location).attr("href", "http://tchinese.seoul.go.kr/?SSid=101-03")
-//   } 
-//   if ($(this).find('.ww')) {
-//     $(location).attr("href", "http://world.seoul.go.kr/")
-//   } 
-
-// });
 
 
 /**
@@ -68,7 +31,7 @@ var mainswiper = new Swiper(".main-swiper", {
   },
 
   autoplay: { // 자동재생 옵션
-    delay: 4500,
+    delay: 3000,
     disableOnInteraction: false, // 터치를 해서 슬라이드를 넘겨도 멈추지 말고 계속 재생을 해라
   },
 
@@ -186,7 +149,7 @@ $('.relrate-btn').click(function(){ // 버튼을 클릭했을때
       /**
        * 
        * $(this).addClass('on')  +  subList.stop().slideDown() 이 두개를 합쳐서
-       * => (this).addClass('on').siblings('.sub-area').stop().slideDown() 이렇게 써도 가능
+       * => (this).addClass('on').siblings('.sub-area').stop().slideDown() 이렇게 쓸 수 있음
        *  */ 
   }
 });

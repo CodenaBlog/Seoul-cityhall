@@ -5,12 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>서울특별시 - 동행.매력 특별시 서울</title>
-  <link rel="shortcut icon" href="./assets/img/favicon.png">
 
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <link rel="stylesheet" href="./assets/css/layout.css">
-  <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> <!-- js 파일 -->
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 </head>
 
 
@@ -18,23 +27,20 @@
 <body>
 
   <div class="wrapper">
-
     <div class="skip-nav">
       <a href="#contents">본문내용바로가기</a>
     </div>
 
-<!-- @@ header @@ -->
+    <!-- @@ header @@ -->
     <header class="header" id="header">
       <div class="common-inner">
         <!-- A. top -->
         <div class="inner-1">
-
           <!-- 1. 서울시 로고 -->
           <div class="logo-area">
             <h1 class="blind">서울특별시</h1>
             <a href="https://www.seoul.go.kr/main/index.jsp"></a>
           </div>
-
           <!-- 2. 메뉴 -->
           <div class="gnb-area">
             <ul class="gnb-list">
@@ -55,68 +61,67 @@
               <li class="util-item"><a href="https://www.seoul.go.kr/member/userlogin/loginCheck.do" target="_blank">전자우편</a></ul>
           </div>
         </div>
-      </div>
 
-
-      <!-- B. bottom -->
-      <div class="bottom">
-        <div class="common-inner">
-          <div class="group-flex">
-            <!-- 1. 슬로건 -->
-            <div class="slogun-area">
-              <h2 class="blind">동행매력특별시서울</h2>
-              <a href="https://www.seoul.go.kr/main/index.jsp">
-                <img src="./assets/img/seoul-slogan.png" alt="">
-              </a>
-            </div>
-            <!-- 2. 검색창 -->
-            <div class="search-area">
-              <form action="" method="get">
-                  <fieldset>
-                      <legend class="blind">검색창</legend>
-                      <div class="wrap">
-                          <input type="text" class="keyword" placeholder="검색어를 입력해 주세요">
-                          <button class="btn-submit">
-                            <span class="blind">키보드</span>
-                            <img src="./assets/img/keyboard.png" alt="">
-                          </button>
-                          <button class="btn-search">
-                            <span class="blind">검색하기</span>
-                          </button>
-                      </div>
-                  </fieldset>
-              </form>
-            </div>
-            <!-- 3. 날씨 -->
-            <div class="weather-area">
-              <a href="https://www.weather.go.kr/w/index.do" class="weather-wrap" target="_blank">
-                <div class="img-box">
-                  <img src="./assets/img/weather.png" alt="흐림">
-                </div>
-                <div class="text-wrap">
-                  <div class="temper-box">
-                    <em>1.1도</em>
-                    <span>구름조금</span>
+        <!-- B. bottom -->
+        <div class="bottom">
+          <div class="common-inner">
+            <div class="group-flex">
+              <!-- 1. 슬로건 -->
+              <div class="slogun-area">
+                <h2 class="blind">동행매력특별시서울</h2>
+                <a href="https://www.seoul.go.kr/main/index.jsp">
+                  <img src="./assets/img/seoul-slogan.png" alt="">
+                </a>
+              </div>
+              <!-- 2. 검색창 -->
+              <div class="search-area">
+                <form action="" method="get">
+                    <fieldset>
+                        <legend class="blind">검색창</legend>
+                        <div class="wrap">
+                            <input type="text" class="keyword" placeholder="검색어를 입력해 주세요">
+                            <button class="btn-submit">
+                              <span class="blind">키보드</span>
+                              <img src="./assets/img/keyboard.png" alt="">
+                            </button>
+                            <button class="btn-search">
+                              <span class="blind">검색하기</span>
+                            </button>
+                        </div>
+                    </fieldset>
+                </form>
+              </div>
+              <!-- 3. 날씨 -->
+              <div class="weather-area">
+                <a href="https://www.weather.go.kr/w/index.do" class="weather-wrap" target="_blank">
+                  <div class="img-box">
+                    <img src="./assets/img/weather.png" alt="흐림">
                   </div>
-                  <div class="dust-box">
-                    <span>미세먼지</span>
-                    <em class="nomal">(보통)</em>
-                    <span>초미세먼지</span>
-                    <em class="bad">(나쁨)</em>
+                  <div class="text-wrap">
+                    <div class="temper-box">
+                      <em>1.1도</em>
+                      <span>구름조금</span>
+                    </div>
+                    <div class="dust-box">
+                      <span>미세먼지</span>
+                      <em class="nomal">(보통)</em>
+                      <span>초미세먼지</span>
+                      <em class="bad">(나쁨)</em>
+                    </div>
                   </div>
-                </div>
-              </a>
-            </div>
-            <!-- 3. 언어 -->
-            <div class="leng-area">
-              <select name="select" class="leng-selcet" id="lengList">
-                <option class="en" value="http://english.seoul.go.kr/?SSid=101-01">ENGLISH</option>
-                <option class="ja" value="http://japanese.seoul.go.kr/?SSid=101-02">日本語</option>
-                <option class="ch1" value="http://chinese.seoul.go.kr/?SSid=101-04">简体中文</option>
-                <option class="ch2" value="http://tchinese.seoul.go.kr/?SSid=101-03">繁体中文</option>
-                <option class="ww" value="http://world.seoul.go.kr/">WorldWide</option>
-              </select>
-              <input class="go" type="button" value="GO" id="lengInput">
+                </a>
+              </div>
+              <!-- 3. 언어 -->
+              <div class="leng-area">
+                <select name="select" class="leng-selcet" id="lengList">
+                  <option class="en" value="#">ENGLISH</option>
+                  <option class="ja" value="#">日本語</option>
+                  <option class="ch1" value="#">简体中文</option>
+                  <option class="ch2" value="#">繁体中文</option>
+                  <option class="ww" value="#">WorldWide</option>
+                </select>
+                <input class="go" type="button" value="GO" id="lengInput">
+              </div>
             </div>
           </div>
         </div>
@@ -124,9 +129,7 @@
     </header>
 
 
-
-
-<!-- @@ main @@ -->
+    <!-- @@ main @@ -->
     <main class="main" id="contents">
       <div class="common-inner">
         <div class="inner-2">
@@ -947,8 +950,6 @@
     </main>
 
 
-
-
     <!-- @@ footer @@ -->
     <footer class="footer">
       <div class="common-inner">
@@ -997,10 +998,6 @@
       </div>
     </footer>
   </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> <!-- js 파일 -->
-  <script src="./assets/js/main.js"></script>
   
 </body>
 </html>
